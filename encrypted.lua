@@ -32,6 +32,11 @@ Section:NewButton("Yaretzi", "ButtonInfo", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/DeletedUserCode/Yaretzi/main/GameSupport.lua"))()
 end)
 
+Section:NewButton("ButtonText", "MIXTEN PREMIUM(CR. xenon hub)", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Minicom667/MIXTEN-by-Teng-Z/main/NH.lua"))()
+
+end)
+
 local Tab = Window:NewTab("Other Games")
 local Section = Tab:NewSection("Build a boat")
 
