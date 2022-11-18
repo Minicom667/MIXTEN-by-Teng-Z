@@ -5,7 +5,7 @@ local Window = Library.CreateLib("MIXTEN(Free)", "Synapse")
 local Tab = Window:NewTab("Blox Fruits")
 local Section = Tab:NewSection(" ")
 
-Section:NewButton("ButtonText", "ButtonInfo", function()
+Section:NewButton("MIXTEN AUTO FARM", "ButtonInfo", function()
     
 loadstring(game:HttpGet('https://raw.githubusercontent.com/Minicom667/noob-autofarm/main/byme.lua'))()
 end)
