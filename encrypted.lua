@@ -217,6 +217,11 @@ end)
 Section:NewButton("Refresh Dropdown","Refresh Dropdown", function()
   drop:Refresh(Plr)
 end)
+
+Section:NewKeybind("KeybindText", "KeybindInfo", Enum.KeyCode.F, function()
+	Library:ToggleUI()
+end)
+
 end)
 
 Tab4:Button("Keyboard",function()
